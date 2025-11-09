@@ -1,9 +1,21 @@
 
-# 🩺 Diabetes Prediction using Machine Learning
+# Diabetes Prediction using Machine Learning
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+<img src="https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative" />
+<img src="https://img.shields.io/badge/Framework-Streamlit-red?logo=streamlit" />
+<img src="https://img.shields.io/badge/Model-XGBoost-blue?logo=xgboost" />
+<img src="https://img.shields.io/badge/Explainability-SHAP-yellow?logo=python" />
+
+</div>
+
+---
 
 A machine learning-powered web app for predicting the likelihood of diabetes based on patient health records. This project achieves an impressive **97.2% accuracy** using a well-processed dataset and includes a Streamlit-based deployment for real-time prediction.
 
-## 📊 Dataset Used
+## Dataset Used
 
 - **Source:** [Diabetes Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 - **Features:**
@@ -20,7 +32,7 @@ A machine learning-powered web app for predicting the likelihood of diabetes bas
 
 The objective of this project is to classify whether a person is likely to have diabetes based on various medical and lifestyle features using supervised machine learning.
 
-### 🎯 Model Highlights
+### Model Highlights
 
 - Achieved **~97.2% accuracy**
 - Applied **SMOTE** for handling imbalanced data
@@ -28,7 +40,7 @@ The objective of this project is to classify whether a person is likely to have 
 - Clean and interactive **Streamlit web interface**
 - Deployment-ready pipeline using **joblib**
 
-## 📁 File Structure
+## File Structure
 
 ```bash
 .
@@ -49,13 +61,13 @@ The objective of this project is to classify whether a person is likely to have 
 
 ```
 
-## 🧪 Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Libraries:** scikit-learn, pandas, numpy, seaborn, matplotlib, joblib, xgboost
 - **Web App:** Streamlit
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 
@@ -80,22 +92,22 @@ Make sure to place the file `diabetes_prediction_pipeline_V2.pkl` in the same di
 streamlit run Deployment_Code.py
 ```
 
-## 🧠 Model Training & Evaluation
+## Model Training & Evaluation
 
 - Various classifiers were tested (Logistic Regression, Random Forest, etc.)
 - Best-performing model was chosen based on precision-recall, ROC-AUC, and accuracy
 - SMOTE was used to handle class imbalance effectively
 - Final model trained on full processed dataset and serialized using `joblib`
 
-## 📷 App UI Preview
+## App UI Preview
 
 > *![Diabetes Prediction Model](image.png)*
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for educational purposes only. It is not a substitute for professional medical diagnosis. Always consult with a licensed healthcare provider for medical advice.
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Kaggle Dataset by [iammustafatz](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 - Inspired by the importance of early diabetes detection
